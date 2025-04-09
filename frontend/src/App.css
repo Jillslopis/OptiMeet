@@ -1,7 +1,7 @@
 .landingPageContainer {
     width: 100vw;
     height: 100vh;
-    background: url("/public/background.png");
+    background: url("/public/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -13,13 +13,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
   
   }
   
   .landingPageContainer nav h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white; 
+    letter-spacing: 1px;
   }
+  
+  .videoIcon {
+    font-size: 3.5rem; 
+    margin-left: 10px; 
+    vertical-align: middle;  
+    color: #FF9839; 
+  }
+  
+  
   
   .landingPageContainer nav .navlist {
     display: flex;
@@ -58,6 +71,26 @@
     height: 70vh;
     width: auto;
   }
+
+  .founderFooter {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    font-size: 1rem;
+    z-index: 10;
+    pointer-events: none; /* ensures clicks pass through to underlying elements if needed */
+    font-weight: 700;
+    
+  }
+
+  .landingPageContainer {
+    position: relative;
+    /* other existing styles */
+  }
+  
+  
   
   .navBar {
     display: flex;
