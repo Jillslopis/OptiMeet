@@ -76,7 +76,7 @@ export default function Authentication() {
                     sm={4}
                     md={7}
                     sx={{
-                        backgroundImage: 'url(https://singlecolorimage.com/get/f5f2eb/1920x1080)',
+                        backgroundImage: "url('/login.jpg')",
 
                         backgroundRepeat: 'no-repeat',
                         backgroundColor: (t) =>
